@@ -28,5 +28,6 @@ public class Parallax extends ApplicationAdapter {
 	
 	@Override
 	public void dispose () {
+		effect.dispose();
 	}
 }
